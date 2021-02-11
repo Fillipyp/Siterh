@@ -249,14 +249,19 @@ a:link {
   cursor: pointer;
   position: relative;
   overflow: hidden;
+    filter:grayscale(30%)
 }
 
 @media(max-width:1000px){
   .img-card{
     width: 320px;
     height: 250px;
+   
   }
 }
+
+
+
 
 .img-card:nth-child(1) {
  box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.25);
@@ -297,7 +302,7 @@ a:link {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* filter:grayscale(5%) */
+  
 }
 
 .content {
@@ -318,7 +323,7 @@ a:link {
     display: none;
   }
 }
-@media(max-width:1000px){
+/* @media(max-width:1000px){ */
 .content2{
   position: absolute;
   justify-content: center;
@@ -328,12 +333,23 @@ a:link {
   left: 0;
   display: flex;
   color: black;
-  font-size: 23px;
+  font-size: 60px;
   width: 100%;
   height: 100%;
   font-weight:600;
+animation: mexerbotao 0.9s alternate infinite ease-in;
 }
+@keyframes mexerbotao {
+  0% {
+    transform:rotate(6deg);
+  }
+  100% {
+    transform: rotate(-6deg);
+  }
 }
+
+
+/* } */
 
 .img-card:nth-child(1) .content {
   background-color: #32e0c4;
