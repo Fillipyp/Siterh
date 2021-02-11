@@ -323,7 +323,7 @@ a:link {
     display: none;
   }
 }
-/* @media(max-width:1000px){ */
+@media(max-width:1000px){
 .content2{
   position: absolute;
   justify-content: center;
@@ -347,9 +347,7 @@ animation: mexerbotao 0.9s alternate infinite ease-in;
     transform: rotate(-6deg);
   }
 }
-
-
-/* } */
+}
 
 .img-card:nth-child(1) .content {
   background-color: #32e0c4;
