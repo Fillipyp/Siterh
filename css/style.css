@@ -78,6 +78,7 @@ p {
 
 a:link {
   text-decoration: none;
+
 }
 /*inicio servicos*/
 @media (min-width: 1000px) {
@@ -86,58 +87,9 @@ a:link {
     /* margin-bottom: 150px; */
   }
 }
-.marketing .col-lg-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-}
 
-.barradivisao-divider {
-  margin: 5rem 0;
-}
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-  .featurette-heading-lado {
-    margin-top: 7rem;
-    text-align: right;
-  }
-}
-@media (min-width: 1000px) {
-  .servico1 {
-    background-color: #f8f4f4;
-    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-    height: 370px;
-    align-content: center;
-    margin-bottom: 150px;
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-  }
-  .servico1:hover {
-    background-color: #a8f5e8;
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.25);
-    -moz-transform: scale(1.03);
-    -webkit-transform: scale(1.03);
-    transform: scale(1.03);
-  }
-}
 
-@media (max-width: 1000px) {
-  .servico1 {
-    text-align: center;
-  }
-}
-
-.imagemservico {
-  width: 280px;
-  height: 280px;
-}
 .oquefazemos {
   margin-top: 100px;
 }
@@ -260,51 +212,12 @@ a:link {
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
+  .Titulotrabalho {
     margin-top: 7rem;
   }
-  .featurette-heading-lado {
-    margin-top: 7rem;
-    text-align: right;
-  }
-}
-@media (min-width: 1000px) {
-  .servico1 {
-    background-color: #f8f4f4;
-    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 25px;
-    height: 370px;
-    align-content: center;
-    margin-bottom: 150px;
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-  }
-  .servico1:hover {
-    background-color: #a8f5e8;
-    -moz-transition: all 0.8s;
-    -webkit-transition: all 0.8s;
-    transition: all 0.8s;
-    box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.25);
-    -moz-transform: scale(1.03);
-    -webkit-transform: scale(1.03);
-    transform: scale(1.03);
-  }
+ 
 }
 
-@media (max-width: 1000px) {
-  .servico1 {
-    text-align: center;
-  }
-}
-
-.imagemservico {
-  width: 280px;
-  height: 280px;
-}
-.oquefazemos {
-  margin-top: 100px;
-}
 
 .imgbanner {
   height: 350px;
@@ -397,6 +310,26 @@ a:link {
   color: #121214;
 }
 
+
+/*inicio servicos*/
+
+
+
+.imagemservico{
+   width:400px;
+   height:350px;
+   border-radius: 20px;
+}
+
+@media(max-width:1000px){
+  .imagemservico{
+    
+    height: 300px;
+  }
+  
+}
+
+
 .cards {
   display: flex;
   justify-content: center;
@@ -476,34 +409,10 @@ a:link {
   transform: translateX(-100%);
   transition: all 1s;
 }
-@media (min-width: 1000px) {
-  .content2 {
+@media(min-width:1000px){
+  .clickimg {
     display: none;
-  }
-}
-@media (max-width: 1000px) {
-  .content2 {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    top: 0;
-    left: 0;
-    display: flex;
-    color: black;
-    font-size: 60px;
-    width: 100%;
-    height: 100%;
-    font-weight: 600;
-    animation: mexerbotao 0.9s alternate infinite ease-in;
-  }
-  @keyframes mexerbotao {
-    0% {
-      transform: rotate(6deg);
-    }
-    100% {
-      transform: rotate(-6deg);
-    }
+    color: red;
   }
 }
 
@@ -782,14 +691,14 @@ a:link {
   margin: 0 auto;
 }
 
-.footer {
+.footer p{
   background: var(--verde);
   color: #13110c;
   /* margin-top: 25px; */
   font-size: 15px;
 }
 
-.footer p {
+.footer p li {
   color: #131313;
 }
 
